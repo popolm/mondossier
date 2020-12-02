@@ -1,0 +1,114 @@
+body { 
+    display:flex;
+    flex-direction:column;    
+    align-items:center;
+    background: url("../img/fond.jpg") fixed repeat top left;
+}
+
+#contenu {
+    text-decoration:none;
+    color: rgba(4, 32, 4, 0.8)
+}
+
+#contenu1 {
+    width: 77%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    border:1px double grey;
+    background-color:#acd2ac;  
+    background: rgba(24, 136, 24, 0.8)
+}
+
+#navigation {
+    width: 100%;
+}
+#lien{
+    width:33%;
+    margin: text;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:10px;
+    text-align:center;
+    border-style:double;
+    border-width:2px;
+    border-color:#050505;
+    background-color:rgb(63, 231, 12);
+}
+#contenu {
+    width: 77%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    border:1px double grey;
+    background-color:#acd2ac;  
+    background: rgba(24, 136, 24, 0.8)
+}
+    
+#navigation ul {
+    list-style-type: none;
+    display: flex;
+    justify-content : space-around;
+    font-family: cursive;
+}
+#navigation a {
+    text-decoration: none;
+    color:#194419;
+    font-family: cursive;
+    text-align: center;
+}
+
+#contenu2 {
+    width: 80%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    border:1px double grey;
+    background-color:#acd2ac;  
+    background: rgba(24, 136, 24, 0.8)
+}
+#contenu3 {
+    width: 77%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    border:1px double grey;
+    background-color:#acd2ac;  
+    background: rgba(24, 136, 24, 0.8)
+}
+
+#h2 {
+    color:rgb(8, 75, 8);
+    font-weight: normal;
+    font-family: Arial black
+}
+
+#contenu1 ul {
+    list-style-type: circle;
+}
+
+#contenu2 ul {
+    list-style-type: circle;
+}
+
+#contenu3 ul {
+    list-style-type: circle;
+}
+
+
+@media screen and (max-width:640px)
+{
+   
+    #navigation ul {
+        list-style-type: none;
+        display: flex;
+        justify-content : center;
+        font-family: cursive;
+        flex-direction: column;
+        margin-left: 10%;
+    }
+}
